@@ -44,7 +44,7 @@
                         event.preventDefault();
                         $('html, body').animate({
                             scrollTop: target.offset().top
-                        }, 900);
+                        },3000);
                     }
                 }); // przerzuca do wybranego elementu na storonie
 
@@ -59,7 +59,30 @@
                      $('#trythis').css('background-color', '#0093dd');
                      $('.navmenu').stop(true, false).animate({left: '-12vw'});
         
-                })
-                 $("#gallery").unitegallery();
+                });
+
+                $('#plan_lekcji_menu').hover(
+                    function(e){
+                      $('#plan_lekcji_rozwijany').show();
+                    },
+                    function(e){
+                      $('#plan_lekcji_rozwijany').hide();
+                    }
+                  );
+                
+                $('#serwisy_menu').hover(
+                    function(e){
+                      $('#serwisy_rozwijane').show();
+                    },
+                    function(e){
+                      $('#serwisy_rozwijane').hide();
+                    }
+                  );
+
+
+                $("#gallery").unitegallery({
+                theme_enable_text_panel: false,
+                slider_scale_mode: "fit",
+                });
                 
             });//jquery ready    
