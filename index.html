@@ -14,6 +14,9 @@
         <link rel="stylesheet" href="css/animate.css">
          <script src="js/wow.min.js"></script>
          <script src="js/js.js"></script>
+         <link  href="fotorama/fotorama.css" rel="stylesheet">
+        <script src="fotorama/fotorama.js"></script> 
+
     </head>
     
     <body>
@@ -23,10 +26,10 @@
                 <source src="videos/promo.mp4" type="video/mp4">
             </video>
 
-          <img src="images/orlik.png" id="orlik">
-          <img src="images/facebook.jpg" id="facebook">
-          <img src="images/aktywna_tablica.png" id="tablica">
-           <img src="images/synergia.png" id="synergia">
+          <a href="#"><img src="images/orlik.png" id="orlik"></a>
+          <a href="#"><img src="images/facebook.jpg" id="facebook"></a>
+          <a href="#"> <img src="images/aktywna_tablica.png" id="tablica"></a>
+          <a href="https://portal.librus.pl/"><img src="images/synergia.png" id="synergia"></a>
 
            <nav class="openmenu"> <!--hamburger-->
              <section class="ln1"></section>
@@ -39,25 +42,45 @@
         <nav class="navmenu">
             <ul class="nav">
                 <li>
+                    <a href="#wydarzenia" class="close_menu">Wydarzenia</a>
+                </li>
+                 <li>
                     <a href="Ogloszenia.html">Ogloszenia</a>
                 </li>
-                <li>
-                    <a href="#wydarzenia" class="close_menu">Wydarzenia</a>
+                <li id="plan_lekcji_menu">
+                    <a href="#">Plan lekcji</a>
+                    <ul id="plan_lekcji_rozwijany">
+                        <li><a href="Klasa_1.html">Klasa 1</a></li>
+                        <li><a href="Klasa_2.html">Klasa 2</a></li>
+                        <li><a href="Klasa_3.html">Klasa 3</a></li>
+                        <li><a href="Klasa_4.html">Klasa 4</a></li>
+                        <li><a href="Klasa_5.html">Klasa 5</a></li>
+                        <li><a href="Klasa_6.html">Klasa 6</a></li>
+                        <li><a href="Klasa_7.html">Klasa 7</a></li>
+                        <li><a href="Klasa_8.html">Klasa 8</a></li>
+                    </ul>
+                </li>
+                <li id="serwisy_menu">
+                    <a href="#">Serwisy</a>
+                    <ul id="serwisy_rozwijane">
+                        <li><a href="Biblioteka.html">Biblioteka</a></li>
+                        <li><a href="Stolowka.html">Stołówka</a></li>
+                        <li><a href="Pielegniarka.html">Pielgniarka szkolna</a></li>
+                        <li><a href="Pedagog.html">Pedagog</a></li>
+                        <li><a href="Rzecznik.html">Rzecznik praw ucznia</a></li>
+                        <li><a href="Rada_rodzicow.html">Rada rodziców</a></li>
+                        <li><a href="Samorzad.html">Samorząd uczniowski</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="Kadra.html">Kadra</a>
                 </li>
-                 <li>
-                    <a href="Plan lekcji.html">Plan lekcji</a>
-                </li>
+                 
                 <li>
                     <a href="Dokumenty.html">Dokumenty</a>
                 </li>
                 <li>
                     <a href="Dyplomy uczniow.html">Dyplomy uczniów</a>
-                </li>
-                <li>
-                    <a href="Galeria.html">Galeria</a>
                 </li>
                  <li>
                     <a href="Kontakt.html">Kontakt</a>
@@ -73,28 +96,1080 @@
                  <div class="row">
                      <div class=".col-12 .col-sm-12 .col-md-12 .col-lg-12 .col-xl-12">
                          <h5>Aktulaności / Wiadomości:</h5>
-                        </div>
+                    </div>
                  </div>
              </div>
 
-             <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                 <div class="wow fadeInRightBig" data-wow-duration="2s"> <!--animacj pojawiania sie tekstu wiadomosci--> 
+                                    <h4>11.11.2018</h4>
+                                    <h1>Pola i Julia zostały laureatkami międzyszkolnego konkursu recytatorskiego. </h1>
+                                    <p>Uczennice klasy VI d, Pola Segiet i Julia Helon, zostały laureatkami międzyszkolnego konkursu recytatorskiego poświęconego poezji miłosnej. Walentynkowy turniej przygotowała Szkoła Mistrzostwa Sportowego. Pola zajęła miejsce pierwsze, Julka - trzecie (na zdjęciu z jurorkami i organizatorkami przedsięwzięcia). Naszą szkołę reprezentowali również inni uczniowie klas V i VI. </p>
+                                </div> <!-- koniec animacj pojawiania sie tekstu wiadomosci--> 
+                                <div class="wow fadeInLeftBig" data-wow-duration="2s"><!--animacj pojawiania sie gallery--> 
+
+
+                                     <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                          <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                          <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                          <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                          <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                    </div><!--koniec gallery-->
+                                 </div><!-- koniec animacj pojawiania sie gallery--> 
+
+                            </div><!-- col 12-->
+                         </div><!-- row-->
+                    </div><!-- container--> 
+            </div>
+ </section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>"Jasne i ciemne strony internetu"</h1>
+                            <p>"Jasne i ciemne strony internetu" - to tytuł spektaklu interaktywnego, który nasi uczniowie mieli okazję obejrzeć w szkole. Aktorzy, przedstawiając kolejne scenki oraz rozmawiając z dziećmi i młodzieżą, ukazali szereg zagrożeń czyhających w sieci. Przedstawili również sporo propozycji alternatywnego spędzenia wolnego czasu.                         </p>
+                        </div>
+                        
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500">
+                              <a href="images2018/Jasne i ciemne/duze/1.jpg"><img src="images2018/Jasne i ciemne/male/1.jpg"></a>
+                              <a href="images2018/Jasne i ciemne/duze/2.jpg"><img src="images2018/Jasne i ciemne/male/2.jpg"></a>
+                              <a href="images2018/Jasne i ciemne/duze/3.jpg"><img src="images2018/Jasne i ciemne/male/3.jpg"></a>
+                              <a href="images2018/Jasne i ciemne/duze/4.jpg"><img src="images2018/Jasne i ciemne/male/4.jpg"></a>
+                              <a href="images2018/Jasne i ciemne/duze/5.jpg"><img src="images2018/Jasne i ciemne/male/5.jpg"></a>
+                              <a href="images2018/Jasne i ciemne/duze/6.jpg"><img src="images2018/Jasne i ciemne/male/6.jpg"></a>
+                              <a href="images2018/Jasne i ciemne/duze/7.jpg"><img src="images2018/Jasne i ciemne/male/7.jpg"></a>
+                              <a href="images2018/Jasne i ciemne/duze/8.jpg"><img src="images2018/Jasne i ciemne/male/8.jpg"></a>
+                              <a href="images2018/Jasne i ciemne/duze/9.jpg"><img src="images2018/Jasne i ciemne/male/9.jpg"></a>
+                            </div>
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Mamy laureatów wojewódzkiego konkursu przedmiotowego z historii</h1>
+                            <p>Michał Solski z klasy VIII b oraz Mateusz Skupień (VIII d) zdobyli tytuł laureata wojewódzkiego konkursu przedmiotowego z historii, organizowanego przez Podkarpackie Kuratorium Oświaty. Gratulujemy sięgnięcia po najwyższe laury !                        </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Wolontariusze z SP4 odwiedzili Klub Seniora</h1>
+                            <p>Uczniowie z koła wolontariatu zaprezentowali krótki program słowno - muzyczny podczas uroczystego otwarcia Miejskiego Klubu Seniora przy ul. 3 maja. Warto przypomnieć, że szkolni wolontariusze współpracują już z Dziennym Domem "Senior +", mieszczącym się przy ul. Dolnoleżajskiej.                        </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Wizyta w teatrze</h1>
+                            <p>Ostatni tydzień I semestru minął nam pod znakiem teatru. W Miejskim Ośrodku Kultury nie zabrakło spektakli dla dzieci i młodzieży. Siódmo- i ósmoklasiści obejrzeli przedstawienie "Kolumbowie", a uczniowie klas IV - VI "Dzieci sieci" w wykonaniu Teatru Profilaktycznego "Alert" (na zdjęciach). Odbył się również występ dla najmłodszych.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Świetlicowy konkurs kolęd i pastorałek</h1>
+                            <p>Świetlicowy konkurs kolęd i pastorałek przyciągnął wielu uczniów klas I i II. Dzieci chętnie zaprezentowały swoje wykonania piosenek bożonarodzeniowych. Wyniki konkursu zostaną ogłoszone na najbliższych apelach grup wiekowych.                        </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Karnawał w "czwórce"</h1>
+                            <p>Przed południem zabawa dla dzieci z klas 0-3, a wieczorem dyskoteka karnawałowo - walentynkowa dla uczniów klas 4-8 - tak wyglądała środa w naszej szkole.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Rocznica wybuchu powstania styczniowego</h1>
+                            <p>22 stycznia obchodzimy rocznicę wybuchu powstania styczniowego. Tradycyjnie już tego dnia mieszkańcy Jarosławia zebrali się na Starym Cmentarzu, by oddać hołd uczestnikom niepodległościowego zrywu z 1863 roku. Wśród zebranych byli przedstawiciele władz lokalnych, miejscowych instytucji oraz placówek oświatowych. Nie zabrakło również naszego pocztu sztandarowego oraz delegacji składającej kwiaty pod tablicą cmentarną, upamiętniającą wydarzenie sprzed 156 lat. Dodajmy, że na obu jarosławskich cmentarzach spoczywa ponad 20 bohaterów tamtych dni.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Do "czwórki" przyjechał teatr...</h1>
+                            <p>Naszą szkołę odwiedził Teatr Kurtyna. Aktorzy zaprezentowali spektakl profilaktyczny, ukazujący m.in. szkodliwość papierosów i alkoholu. Uczniowie zobaczyli też, czym tak naprawdę warto imponować rówieśnikom.                        </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Szymon wyróżniony w konkursie fotograficznym</h1>
+                            <p>Szymon Urbanik z klasy V b otrzymał wyróżnienie w wojewódzkim konkursie fotograficznym "Ślady niepodległości". Organizatorem przedsięwzięcia było Archiwum Państwowe w Rzeszowie wraz z rzeszowskim oddziałem Instytutu Pamięci Narodowej.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Nasi uczniowie wspierali WOŚP</h1>
+                            <p>Przez cały dzień wolontariusze z naszej szkoły kwestowali w ramach Wielkiej Orkiestry Świątecznej Pomocy. Tegoroczny dochód z ogólnopolskiej akcji przeznaczony będzie na zakup sprzętu dla specjalistycznych szpitali dziecięcych.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Nasz uczeń laureatem Ogólnopolskiego Turnieju w Badmintonie</h1>
+                            <p>Patryk Czogała z klasy 8 b został laureatem trzeciej nagrody X Jubileuszowego Ogólnopolskiego Turnieju w Badmintonie, rozgrywanego w ramach Finału Wielkiej Orkiestry Świątecznej Pomocy. Impreza odbyła się w Szczucinie (woj. małopolskie).                        </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Orszak Trzech Króli</h1>
+                            <p>Jak co roku, w Orszaku Trzech Króli nie zabrakło naszych uczniów. Dołączyliśmy do korowodu europejskiego - dziewczęta jako dwórki, a chłopcy w roli żołnierzy husarii.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                                <h1>Nasi wolontariusze w domu seniora</h1>
+                            <p>Uczennice z koła wolontariatu odwiedziły podopiecznych dziennego domu seniora przy ul. Dolnoleżajskiej. Była to okazja do wspólnego spędzenia czasu, kolędowania i rozmów.                        </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+          
+      <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Cicha noc...</h1>
+                            <p>Przedświąteczny dzień w szkole upłynął pod znakiem klasowych spotkań opłatkowych oraz programów bożonarodzeniowych (przygotowanych osobno dla klas 1-3 i 4-8).                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Kolędnicy w Urzędzie Miasta</h1>
+                            <p>Uczniowie klasy IV e dotarli z życzeniami do Urzędu Miasta, gdzie spotkali się z Panem Burmistrzem. Gospodarz miasta wysłuchał kolędy w wykonaniu reprezentantów naszej szkoły i pogratulował występu.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Jasełka "świetliczaków"</h1>
+                            <p>Dzieci ze świetlicy szkolnej przedstawiły podczas Jarmarku Bożonarodzeniowego jasełka. Występ odbył się na scenie przed ratuszem.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Sukces w konkursie historycznym</h1>
+                            <p>Szymon Urbanik z klasy V b zdobył trzecie miejsce 
+                                w międzyszkolnym konkursie historycznym,zorganizowanym z okazji 100- lecia odzyskania niepodległości. Wręczenie nagród miało miejsce w Szkole Podstawowej nr 5, która była organizatorem przedsięwzięcia.
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Zapraszamy na kiermasz!!!</h1>
+                            <p>Jak co roku, zapraszamy na szkolny kiermasz bożonarodzeniowy. Ozdoby świąteczne można kupować na parterze.</p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+     <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>37 rocznica wprowadzenia stanu wojennego</h1>
+                            <p>W czwartkowy wieczór w jarosławskim Opactwie przeżywaliśmy 37. rocznicę ogłoszenia stanu wojennego. Podczas Mszy św. i składania wiązanek kwiatów przed pomnikiem bł. ks. Jerzego Popiełuszki byli również nasi uczniowie wraz ze sztandarem.                       </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+            </section><!--koniec wiadomosci -->
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Odwiedzili nas koledzy z Ukrainy</h1>
+                            <p>13 grudnia odwiedzili nas uczniowie z Ukrainy, z miejscowości Nieżyn w obwodzie czernihowskim. Goście zwiedzili szkołę, poznając nauczycieli
+                                i uczniów. Następnie wzięli udział w lekcji języka polskiego i zajęciach 
+                                z robotyki. Obejrzeli pokaz gimnastyczny w wykonaniu naszych uczennic oraz uczestniczyli we wspólnym śpiewaniu kolęd i piosenek o tematyce świątecznej i zimowej.
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>XI Jarosławskie Potyczki Ortograficzne</h1>
+                            <p>Nasi uczniowie dołączyli w dzisiejszy poranek do zmagających się z dyktandem pisanym w ramach XI Jarosławskich Potyczek Ortograficznych. 
+                                Tekst zredagowała dr Grażyna Błachowicz - Wolny z Uniwersytetu Rzeszowskiego, a odczytała Ilona Małek, dziennikarka TVP Rzeszów. Konkurs odbył się w Państwowej Wyższej Szkole Techniczno-Ekonomicznej.
+                                A oto fragment historii o żurawiu piszącym epopeję: "Nikt nie wiedział, że bał się pszczółki Mai, pustułki Grażynki i tego znanego chrząszcza ze Szczebrzeszyna, wszystko to bardzo skrzętnie skrywał, truchlał i drżał, gdy tylko o nich pomyślał. Nigdy nie pił espresso, oranżady, tylko wodę niegazowaną albo z kałuży. Miał talerzyk w różnokolorowe esy-floresy, jaskrawożółtą szkatułkę ze zdjęciem pięknookiej żony i pamiątkami z Białowieży. Raz na jakiś czas grał na waltorni albo harfie i co najmniej raz w roku uczestniczył w konkursie muzycznym".
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Konkurs "Zjawiskowa bombka choinkowa"</h1>
+                            <p>Miejska Biblioteka Publiczna im. A. Fredry ogłosiła wyniki konkursu plastycznego dla uczniów jarosławskich szkół podstawowych "Zjawiskowa bombka choinkowa". Wśród nagrodzonych nie zabrakło naszych reprezentantów. Pierwsze miejsce w kategorii "Praca oryginalna" zdobyła Emilia Kamińska. Trzecia nagroda w kategorii klas 4-8 przypadła Oliwii Mil. Wyróżnienia otrzymali: Maja Korczewska, Wiktoria Klucznik, Jakub Rzetelski i Kamil Sobolewski.                        </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Międzyszkolny konkurs piosenki patriotycznej</h1>
+                            <p>Dzisiejszy międzyszkolny konkurs piosenki patriotycznej "Młodzi dla Niepodległej" przyniósł nam pasmo sukcesów. Zdobyliśmy pierwsze miejsce w kategorii zespołów wokalnych oraz wśród solistów klas 1-3. Natomiast pośród starszych solistów komisja przyznała naszej reprezentantce miejsce drugie. Zespół wokalny stworzyły uczennice klas 7 i 8: Weronika Drozd, Kinga Jamrozik, Natalia Stachurska, Karolina Zięba i Eliza Sękiewicz. Zdobywczyni pierwszego miejsca młodszych śpiewaczek to Olivia Wardyga z klasy 3 b, zaś laureatką drugiej nagrody uczniów klas 4-8 została Natalia Stachurska (kl. 7 b). Organizatorem konkursu był Regionalny Klaster Ekonomii Społecznej i Innowacji "Z Biegiem Sanu do Rozwoju".
+                            </p>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Konkurs "Pocztówka dla Niepodległej"</h1>
+                            <p>"Pocztówka dla Niepodległej" - to tytuł konkursu plastycznego dla czwartoklasistów, ogłoszonego z okazji 100. rocznicy odzyskania przez Polskę wolności. Uczniowie chętnie i pomysłowo wykonali sporą ilość kartek. A teraz otrzymali nagrody i dyplomy.                         </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Najlepszy bramkarz turnieju</h1>
+                            <p>Kamil Słomiany z klasy 5 c został wybrany najlepszym bramkarzem podczas Mikołajkowego Halowego Turnieju Piłki Nożnej Szkół Podstawowych „Czarno-Niebieski Mikołaj z PGE”. Drużynowo w rozgrywkach zajęliśmy trzecie miejsce.
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>I Gala Wolontariatu</h1>
+                            <p>Nasze uczennice ze szkolnego koła wolontariatu odebrały nagrody oraz gratulacje podczas I Gali Wolontariatu, która odbyła się w Centrum Kultury i Promocji. Amelia Kruk i Sandra Magdziak z klasy 8 c wraz z opiekun koła, Panią Moniką Bielą, znalazły się wśród 32 wyróżnionych osób z naszego miasta i okolic. Upominki ufundowało Jarosławskie Stowarzyszenie Oświaty i Promocji Zdrowia. Patronat nad galą sprawował Burmistrz Miasta Jarosławia.                       </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>św. Mikołaj w szkole</h1>
+                            <p>Dziś szczególny dzień, kiedy to św. Mikołaj przychodzi do wszystkich dzieci z prezentami. Przed południem zawitał również do naszej szkoły...                      </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Świeto Szkoły i Patrona</h1>
+                            <p>Jak co roku, u zbiegu rocznicy śmierci Stefana Żeromskiego (20 listopada 1925 r.) i otwarcia Szkoły Podstawowej nr 4 (12 grudnia 1964 r.) obchodziliśmy Święto Szkoły i jej Patrona. Po Mszy św. w Bazylice Matki Bożej Bolesnej , spotkaliśmy się w szkole z zaproszonymi gośćmi i zaprezentowaliśmy spektakl "Miłość jest tworzeniem". Przedstawienie opowiadało o autorze "Przedwiośnia" oraz jego najbliższych.
+                             </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Rocznica odzyskania niepodległości</h1>
+                            <p>Przedstawiciele szkoły wraz z pocztem sztandarowym wzięli udział w miejskich obchodach setnej rocznicy odzyskania przez Polskę niepodległości. Świętowanie rozpoczęła Msza św. w Kolegiacie. Następnie przeszliśmy na Rynek, by tam uczestniczyć w Apelu Poległych oraz złożeniu kwiatów pod nowo odsłoniętą tablicą poświęconą marszałkowi Józefowi Piłsudskiemu.                        </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Wspólnie odśpiewaliśmy Mazurka Dąbrowskiego</h1>
+                            <p>Główne uroczystości z okazji 100-nej rocznicy odzyskania przez Polskę niepodległości zakończył piątkowy apel „Urodziny Ojczyzny”, po którym cała społeczność szkoły odśpiewała „Mazurka Dąbrowskiego”, biorąc tym samym udział w ogólnopolskim biciu rekordu Guinnessa na wspólne odśpiewanie hymnu narodowego. Zapraszamy do odwiedzenia naszego szkolnego facebooka, gdzie znajduje się filmik z tego wydarzenia.
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+ 
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>11.11.2018</h4>
+                            <h1>Wieczornica dla Niepodległej w Szkole Podstawowej nr 4 im. Stefana Żeromskiego</h1>
+                            <p>W roku 100-nej rocznicy odzyskania przez Polskę niepodległości Szkoła Podstawowa nr 4 im. Stefana Żeromskiego w Jarosławiu realizuje projekt w ramach którego różnorodnymi akcjami uczciła ukochaną Ojczyznę. Motto tych działań stanowiły słowa świętego Jana Pawła II „Polska jest matka szczególną […]. Dlatego też ma prawo do szczególnej miłości”.
+                            Koordynatorki projektu – nauczyciele SP 4 – p. Beata Łuc-Piela, Agnieszka Motyka Violetta Szpilak i Barbara Iwasieczko szczególnie intensywne działania zaplanowały w dniach poprzedzających 11 listopada. Ważnym wydarzeniem była czwartkowa uroczysta wieczornica niepodległościowa przygotowana według autorskiego programu, w ramach której społeczność szkoły – uczniowie, ich rodzicie, zaproszeni goście oraz nauczyciele i pracownicy szkoły uczcili niepodległą wspólnym śpiewem patriotycznych pieśni oraz wysłuchali montażu słowno-muzycznego „Urodziny Ojczyzny”. Burmistrza miasta reprezentowała dyrektor wydziału oświaty – Renata Chlebowska. Wszyscy obecni na wieczornicy otrzymali specjalny numer gazety szkolnej „Czwórka” oraz śpiewniki z pieśniami, które mogli śpiewać wspólnie z uczniami. Każdy obecny został również poczęstowany ciastem urodzinowym – babeczką w narodowych barwach.
+                            Celem tych działań było wychowanie patriotyczne uczniów jako element przygotowania do obchodów 100 rocznicy odzyskania niepodległości przez Polskę, a także włączenie się w realizację projektu całej społeczności szkolnej. Cała społeczność „Czwórki” swoim zachowaniem chciała zaświadczyć „Jeszcze Polska nie zginęła, kiedy my żyjemy”
+                             </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>10.11.2018</h4>
+                            <h1>„Czwórka” w kadrze filmu „Jarosławski Hołd”</h1>
+                            <p>W środę, 7 listopada, uczniowie SP 4 utworzyli naszą flagę na jarosławskim rynku, tym sam biorąc udział w ostatniej scenie filmu o Jarosławiu realizowanego przez uczniów z Zespołu Szkół Technicznych i Ogólnokształcących. Wspólnie odśpiewaliśmy też nasz hymn narodowy i wysłuchaliśmy piosenki w wykonaniu zespołu Reggaegang. To kolejna już akcja „Czwórki’ w hołdzie dla Niepodległej. </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>06.11.2018</h4>
+                            <h1>Orlik dla Niepodległej</h1>
+                            <p>We wtorek, 6 listopada, cała społeczność szkoły utworzyła Orlik dla Niepodległej - stworzyła flagę z białych i czerwonych kartek papieru oraz odśpiewała nasz hymn narodowy.
+                            Chcieliśmy tym samym uczcić 100-lecie odzyskania przez Polskę niepodległości.
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>30.10.2018</h4>
+                            <h1>WSPOMINALIŚMY JANA PAWŁA II </h1>
+                            <p>Szkolny Dzień Papieski wpisany jest już na stałe w kalendarz uroczystości naszej placówki. Z tej okazji uczniowie przedstawili spektakl poświęcony głównie dzieciństwu Karola Wojtyły (Lolka), który 40 lat temu został wybrany na Głowę Kościoła. </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>30.09.2018</h4>
+                            <h1>DZIEŃ CHŁOPAKA W SZKOLE </h1>
+                            <p> Nasze uczennice nie zapomniały o swoich klasowych kolegach , składając im z okazji Dnia Chłopaka życzenia i obdarowując drobnymi prezentami - na słodko i na wesoło... </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>25.10.2018</h4>
+                            <h1>WSPÓLNY „POLONEZ” NA RYNKU </h1>
+                            <p>Uczniowie klasy 6 a znaleźli się wśród 100 par, które na Rynku odtańczyły poloneza z okazji 100 - lecia odzyskania przez Polskę niepodległości. </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>10.11.2018</h4>
+                            <h1>W HOŁDZIE ZASŁUŻONYM DLA JAROSŁAWIA</h1>
+                            <p>W oktawie uroczystości Wszystkich Świętych, 6 listopada w kościele
+                                Trójcy Przenajświętszej sprawowana była Msza św. w intencji zmarłych,
+                                którzy zasłużyli się dla ziemi jarosławskiej. Następnie delegacje
+                                szkół oraz władz samorządowych złożyły kwiaty pod pomnikiem
+                                inwalidów wojennych. Nie zabrakło tam również naszego pocztu
+                                sztandarowego.
+                             </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+ </section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>30.10.2018</h4>
+                            <h1>PASOWANIE NA UCZNIA</h1>
+                            <p>Nasi pierwszoklasiści są już prawdziwymi uczniami. W ostatni czwartek października przeżyli pasowanie połączone ze ślubowaniem. Uroczystości towarzyszył okolicznościowy program słowno - muzyczny. </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>10.10.2018</h4>
+                            <h1>Kółko techniczne</h1>
+                            <p>Od września 2018 r. rozpoczęły się zajęcia koła technicznego dla klas V i VI kółko cieszy się dużym zainteresowaniem. Na zajęciach dzieci uczą się wykonywać różne prace techniczne, poddają wiele własnych pomysłów na wykonanie prac. Uczą się wytwarzać różne rzeczy z wykorzystaniem różnych narzędzi i materiałów. </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>10.10.2018</h4>
+                            <h1>Rozstrzygnięcie konkursu plastycznego „wtedy nam się odrodziła…” </h1>
+                            <p>W dniu 3.10.2018 r.  w Miejskiej Bibliotece Publicznej w Jarosławiu odbyło się rozstrzygnięcie konkursu plastycznego „wtedy nam się odrodziła…” . Konkurs polegał na wykonaniu ilustracji do wierszy p. Krzysztofa Kubaszka. Liczna grupa uczniów naszej szkoły wzięła udział w tym konkursie w czerwcu 2018 r.  
+                            Rozstrzygniecie konkursu było połączone ze spotkaniem autorskim z Krzysztofem Kubaszkiem i promocją zbioru poetyckiego „Tak nam się odrodziła, Polska, Ojczyzna miła!”, który został napisany z okazji 100. rocznicy odzyskania przez Polskę Niepodległości. W tomiku tym zostały ukazane prace naszych nagrodzonych uczniów, których było aż 16 z klas od I do VIII. Dzieci dostały pamiątkowe dyplomy konkursowe oraz wydanie tomiku wierszy z dedykacją autora. 
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>30.10.2018</h4>
+                            <h1>Wycieczka do Nowej Dęby </h1>
+                            <p>W poniedziałek 29.10.2018 r. uczniowie klasy 2 b oraz 2 c wraz z wychowawcami p. Anną Skowrońską oraz p. Grażyną Sobczuk oraz opiekunami p. Marią Krzanowską wybrały się na wycieczkę do Fabryki Baniek w Nowej Dębie. Podczas wizyty w fabryce dzieci miały okazję zapoznać się z historią bombki choinkowej, poznać tajniki wykonywania ślicznych ręcznie robionych baniek. Największą atrakcją podczas wizyty była możliwość ozdabiania własnych baniek, które są dla dzieci jedyne w swoim rodzaju.</p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci --> 
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>20.10.2018</h4>
+                            <h1>Konkurs o Chopinie</h1>
+                            <p>W dniu 17 października 2018r. odbył się w świetlicy dla uczniów klas 3 i 4 konkurs muzyczno- edukacyjny : Niezwykły kompozytor- Fryderyk Chopin i jego utwory.
+                                Współzawodniczyło   ze sobą sześć drużyn . W każdej drużynie było trzech uczestników. Rywalizacja była zacięta, pełna emocji , niespodziewanych sytuacji. Wszyscy uczniowie wykazali się wysokim poziomem wiedzy o F. Chopinie. Doskonale rozpoznawali  utwory muzyczne kompozytora. 
+                                Zwycięską drużyną okazała się drużyna nr 3 w składzie: Milena Bułas, Cyprian Dec i Emil Pińkowski- uczniowie klas III. Wszyscy uczestnicy konkursu otrzymali pamiątkowe dyplomy ,słodycze i drobne upominki. 
+                                Zmaganiom uczniów przypatrywała się komisja w składzie : mgr Lidia Wojtyna i mgr Elżbieta Musur. Konkurs przygotowali wychowawcy świetlicy: Barbara Eider - Chodań i Danuta Bacza. Wszystkim serdecznie gratulujemy. 
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->  
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>16.10.2018</h4>
+                            <h1>Wizyta w Izbie Pamięci Narodowej</h1>
+                            <p>W dniu 4 października 2018r, grupa dzieci świetlicowych klas III i IV wraz z wychowawczyniami Danutą Bacza i Barbara Eider- Chodań odwiedziła niedawno otwartą Izbę Pamięci Narodowej , która znajduje się  w jarosławskiej budowlance. Bez wątpienia była to niecodzienna , świetlicowa lekcja historii. Dzieci wzbogaciły swoją wiedzę , oglądały oryginalne pamiątki z okresu powstania szkoły budowlanej i okrutnych czasów II wojny światowej min. pasiak oświęcimski, ponadto  zdjęcia, które robiły na zwiedzających duże wrażenie . Obejrzały także fragment filmu edukacyjnego dotyczącego aresztowania , przesłuchiwań przez Niemców uczniów budowlanki , którzy w konsekwencji znaleźli się w  pierwszym transporcie do KL- AUSCHWITZ i otrzymali pierwsze więzienne numery. 
+                            Taka wizyta na długo pozostaje w sercach i pamięci dzieci. Na pewno jeszcze odwiedzimy to szczególne miejsce.
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->    
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>15.10.2018</h4>
+                            <h1>Prace plastyczne dzieci świetlicowych...</h1>
+                            <p>Prace plastyczne dzieci świetlicowych wykonane w ramach świetlicowego konkursu pod hasłem "Jarosław- moja mała ojczyzna" zostały zaprezentowane w jarosławskiej Galerii Przedmiotu na przełomie września i października 2018r. </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+                     <div class="container">
+                         <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInRightBig" data-wow-duration="2s"> 
+                                <h4>10.09.2018</h4>
+                            <h1>Szkoła Podstawowa nr 4 – nasza szkoła – współorganizatorem Narodowego Czytania „Przedwiośnia” Stefana Żeromskiego na jarosławskim rynku</h1>
+                            <p>Nasza szkoła była współorganizatorem tegorocznej edycji akcji "Narodowe Czytanie" w Jarosławiu, przebiegającej pod patronatem Pary Prezydenckiej.
+                             Tym razem odczytywane były fragmenty "Przedwiośnia" Stefana Żeromskiego, który jest przecież patronem „Czwórki”. Po uroczystym odczytaniu fragmentów powieści przy jarosławskim rynku, uczniowie naszej szkoły przedstawili montaż słowno –muzyczny (przygotowanie A. Motyka, G. Prusinowska, B. Iwasieczko) przypominający sylwetkę i najważniejsze utwory Stefana Żeromskiego – autora powieści wybranej na tegoroczne czytanie. Ponadto, uczniowie „Czwórki” przygotowali i rozdali ponad 500 zakładek do książek z cytatami z książek Żeromskiego. Każdy, kto przyniósł swój egzemplarz "Przedwiośnia", mógł go opatrzyć specjalną pieczęcią Prezydenta RP, wydaną na tę okazję. 
+                            To był dzień pełen niesamowitych przeżyć związanych z patronem naszej szkoły – naszym autorytetem.
+                            </p>
+                        </div>
+                        <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
+                         </div>
+                         </div>
+                    </div>
+            </div>
+</section><!--koniec wiadomosci -->
+
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
                      <div class="container">
                          <div class="row">
                             <div class="col-12">
                                 <div class="wow fadeInRightBig" data-wow-duration="2s"> 
                                 <h4>_09.11.2018</h4>
                             <h1>Dzien Sybiraka</h1>
-                            <p>Przedstawiciele naszej społeczności wraz ze sztandarem uczestniczyli 17 września w obchodach Światowego Dnia Sybiraka.Uroczystości rozpoczęła Msza św. w Kolegiacie. Następnie delegacje władz lokalnych, szkół oraz różnych instytucji złożyły wiązanki pod pomnikiem Bohaterów i Ofiar II Wojny Światowej.Kolegiacie. Następnie delegacje władz lokalnych, szkół oraz różnych instytucji złożyły wiązanki pod pomnikiem Bohaterów i Ofiar II Wojny </p>
+                            <p>Przedstawiciele naszej społeczności wraz ze sztandarem uczestniczyli 17 września w obchodach Światowego Dnia Sybiraka.Uroczystości rozpoczęła Msza św. w Kolegiacie. Następnie delegacje władz lokalnych, szkół oraz różnych instytucji złożyły wiązanki pod pomnikiem Bohaterów i Ofiar II Wojny Światowej.Kolegiacie. Następnie delegacje władz lokalnych, szkół oraz różnych instytucji złożyły wiązanki pod pomnikiem Bohaterów i Ofiar II Wojny 
+                            </p>
                         </div>
                         <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
-                            <img src="images2018/duze/dzien_sybiraka.jpg" class="img-fluid"><img src="images2018/duze/dzien_sybiraka2.jpg" class="img-fluid"><a href="Galeria.html" class="wiecej">Zobacz galerie</a>
-                         </div>
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->                         </div>
                          </div>
                     </div>
             </div>
-            </section><!--koniec wiadomosci -->
+</section><!--koniec wiadomosci -->
 
-            <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+ <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
                      <div class="container">
                          <div class="row">
                             <div class="col-12">
@@ -104,14 +1179,18 @@
                                 <p>Msza św. w Bazylice Matki Bożej Bolesnej rozpoczęła 3 września nowy rok edukacji 2018/2019. Po przejściu do szkoły, przyszedł czas na oficjalną inaugurację, której gościem był Wiceburmistrz Jarosławia Dariusz Tracz.  </p>
                             </div>
                             <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
-                                <img src="images/poczatek1.jpg" class="img-fluid"><img src="images/poczatek2.jpg" class="img-fluid"><a href="Galeria.html" class="wiecej">Zobacz galerie</a>
-                             </div>
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->                             </div>
                          </div>
                     </div>
             </div>
-            </section><!--koniec wiadomosci -->
+</section><!--koniec wiadomosci -->
 
-            <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
                  <div class="container">
                      <div class="row">
                         <div class="col-12">
@@ -121,14 +1200,18 @@
                             <p>25 września 2018 roku w murach naszej szkoły odbyło się spotkanie z dietetykiem Panią Moniką Dąbrowską. W sposób niezwykle ciekawy zachęcała dzieci do świadomego dbania o własne zdrowie. Wspólnie z uczniami omówiła i wykonała piramidę zdrowego odżywiania. Podczas zajęć uczniowie dowiedzieli się jaką wartość ma ruch, woda oraz pierwszy posiłek jakim jest śniadanie. Pani dietetyk zaprezentowała wachlarz witamin niezbędnych do prawidłowego funkcjonowania naszego organizmu. Na zakończenie spotkania uczniowie otrzymali zakładki do książek.</p>
                         </div>
                         <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
-                            <img src="images/dietetyk1.jpg" class="img-fluid"><img src="images/dietetyk2.jpg" class="img-fluid"><a href="Galeria.html" class="wiecej">Zobacz galerie</a>
-                         </div>
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->                         </div>
                      </div>
                 </div>
             </div>
-            </section><!--koniec wiadomosci -->
+ </section><!--koniec wiadomosci -->
 
-            <section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
+<section class="wiadomosci"><!--wiadomosci do kopiawiania aby dodac nowy tekst-->
                      <div class="container">
                          <div class="row">
                             <div class="col-12">
@@ -138,13 +1221,18 @@
                                 <p>W ramach miejskiego projektu „Dziś to jutro- szanujmy zielone dziedzictwo” do naszej szkoły 19 września przybyli uczniowie i nauczyciele ze słowackiego Svidnika.Podczas wspólnych warsztatów poznawaliśmy tajniki ochrony zasobów i jakości wód. Jedną z metod zatrzymania wody w ekosystemie jest tworzenie tzw. ogrodów deszczowych. Wspólnymi siłami, uczniowie i nauczyciele obu szkół stworzyli taki ogródek przy budynku „Czwórki”. </p>
                             </div>
                             <div class="wow fadeInLeftBig" data-wow-duration="2s"> 
-                                <img src="images/deszczowy_ogrod.jpg" class="img-fluid"><img src="images/deszczowy_ogrod2.jpg" class="img-fluid"><a href="Galeria.html" class="wiecej">Zobacz galerie</a>
+                            <div class="fotorama" data-nav="thumbs" data-loop="true" data-keyboard="true" data-width="700" data-height="500""><!--poczatek gallery-->
+                                <a href="images2018/hymn/duze/2.jpg"><img src="images2018/hymn/male/2.jpg"></a>
+                                <a href="images2018/hymn/duze/3.jpg"><img src="images2018/hymn/male/3.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                                <a href="images2018/hymn/duze/4.jpg"><img src="images2018/hymn/male/4.jpg"></a>
+                            </div><!--koniec gallery-->
                              </div>
                          </div>
                     </div>
             </div>
             </section>
-       </section><!--koniec wiadomosci -->
+</section><!--koniec wiadomosci -->
 
        <section id="up"><!--przyciska strzałka do przeskocenia na gore strony -->
         <div class="container">
