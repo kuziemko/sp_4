@@ -6,6 +6,7 @@
     position: relative;
     overflow: hidden;
 } 
+
 #bgvid{
     position: absolute;
     top: 50%;
@@ -60,7 +61,7 @@
     height: 93vh;
     top: 7vh;
     left: -12vw;
-    padding-top: 40px;
+   
 }
 #trythis{
     height: 7vh;
@@ -109,6 +110,47 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     z-index: 4;
+}
+#plan_lekcji_menu{
+    position: relative;
+}
+#plan_lekcji_rozwijany{
+    position: absolute;
+    z-index: 28;
+    width: 100%;
+    right: -100%; 
+    top: 0;
+    display: none;
+    background-color:#0093dd;
+    border: 2px solid red;
+   
+}
+#plan_lekcji_rozwijany li{
+    font-size: 0.8em !important;
+    margin-bottom: 0px ;
+}
+#plan_lekcji_rozwijany li a{
+    padding: 4px !important;
+}
+#serwisy_menu{
+    position: relative;
+}
+#serwisy_rozwijane li{
+     font-size: 0.8em !important;
+    margin-bottom: 0px ;
+}
+#serwisy_rozwijane li a{
+     padding: 4px !important;
+}
+#serwisy_rozwijane{
+   position: absolute;
+    z-index: 28;
+    width: 100%;
+    right: -100%; 
+    top: 0;
+    background-color:#0093dd;
+    border: 2px solid red; 
+    display: none;
 }
 #header .nav{
     width: 13%;
@@ -218,11 +260,18 @@
     text-decoration: none;
     cursor: pointer;
 }
+.fotorama__wrap {
+    margin: 0 auto;
+}
 .wiadomosci{
     padding-top: 25px;
     padding-bottom: 25px;
     border-top: 2px solid black;
     min-height: 50vh;
+}
+.nowe_ogloszenie{
+    padding: 25px;
+    border-bottom: 2px solid black;
 }
 footer{
     color: black;
@@ -264,14 +313,12 @@ footer a:first-child{
 }
 #podstrony .navmenu_pdst{
     background-color: #0093dd;
-
     opacity: 0.9;
     display: block;
    position: fixed;
     z-index: 49;
     width: inherit;
     height: 100vh;
- overflow: scroll;
     max-width: inherit;
 }
 #podstrony .navmenu_pdst li{
@@ -283,6 +330,9 @@ footer a:first-child{
     z-index: 4;
     display: block;
     text-align: center;
+}
+#podstrony .navmenu_pdst li:last-child{
+    margin-bottom: 0px;
 }
 #podstrony .navmenu_pdst li a {
     color: #f8fdff; 
@@ -296,8 +346,8 @@ footer a:first-child{
 }
 #podstrony .nav_pdst{
     width:100%;
-    padding-top: 30px;
     min-height: 100vh;
+    margin-bottom: 0px !important;
 }
 #podstrony .navmenu_pdst li a:hover{
     background-color: #ffffff;
@@ -348,6 +398,19 @@ footer a:first-child{
 .add_padding{
     padding-left: 30px;
     padding-right: 30px;
+}
+#podstrony_lewa{
+    width: 13%;
+    float:left;
+}
+#podstrony_prawa{
+    width: 87%;
+    float: left;
+}
+#plan_lekcji img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* style dla mniejszych rozdzielczosci-----*/
@@ -421,6 +484,7 @@ footer img{
     width: 60%;
     min-height: 100vh;
     display: none;
+     overflow: scroll;
 }
 }
 @media only screen and (max-width: 800px){
